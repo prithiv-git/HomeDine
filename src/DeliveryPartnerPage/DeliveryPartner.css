@@ -1,0 +1,80 @@
+.deliverypartner-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
+
+.deliverypartner-content {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.deliverypartner-content h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.benefits {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.benefit {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 30%;
+}
+
+.benefit .icon {
+    width: 20px;
+    height: 20px;
+    background-color: #1abf20;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+}
+
+.benefit p {
+    font-size: 18px;
+    color: #333;
+}
+
+.footer-text {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.join-button {
+    background-color: #1abf20;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.join-button:hover {
+    background-color: #45a049;
+}
+
+.deliverypartner-image {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.deliverypartner-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}

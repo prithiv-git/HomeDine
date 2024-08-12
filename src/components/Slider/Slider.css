@@ -1,0 +1,83 @@
+.slider-container {
+    width: 90%;
+    margin: auto;
+    padding: 30px ;
+  }
+  
+  .slick-slide img {
+    width: 200px;
+    height: 200px;
+    display: inline-block; /* Remove any default inline spacing */
+    margin: 0 60px;/* Increase spacing between images */
+    align-items: center;
+  } 
+  
+  .slider-image {
+    display: inline-block;
+    max-width: 60%; /* Ensures the image does not exceed the width of the container */
+    height: auto; /* Keeps the aspect ratio of the image */
+    object-fit: cover; /* Ensures the image covers the container while maintaining aspect ratio */
+  }
+  .slide-space{
+    display: inline-block;
+    max-width: 100%; /* Ensures the image does not exceed the width of the container */
+    height: auto; /* Keeps the aspect ratio of the image */
+    object-fit: cover; /* Ensures the image covers the container while maintaining aspect ratio */
+  }
+  
+  .slick-dots li button:before {
+    color: #2b7a0b;
+  }
+  
+  .slick-prev:before, .slick-next:before {
+    color: #2b7a0b; 
+  }
+  .slider-container {
+    width: 90%;
+    margin: auto;
+  }
+  
+  .slide {
+    display: inline-block;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .slider-image {
+    margin: 0 50px;
+    max-width:max-content; 
+    height: flex;
+    object-fit: contain;
+
+  }
+  .zoom-image1 {
+    transform: scale(1.5); /* Zoom in by 20% */
+    transition: transform 0.3s ease-in-out; /* Smooth transition */
+}
+  
+  .zoom-image2 {
+    transform: scale(1.2); /* Zoom in by 20% */
+    transition: transform 0.3s ease-in-out; /* Smooth transition */
+}
+  
+.zoom-image3 {
+  transform: scale(1.0); /* Zoom in by 20% */
+  transition: transform 0.3s ease-in-out; /* Smooth transition */
+}
+.zoom-image4 {
+  transform: scale(1.2); /* Zoom in by 20% */
+  transition: transform 0.3s ease-in-out; /* Smooth transition */
+}
+.zoom-image5 {
+  transform: scale(1.2); /* Zoom in by 20% */
+  transition: transform 0.3s ease-in-out; /* Smooth transition */
+}
+.zoom-image6 {
+  transform: scale(1.2); /* Zoom in by 20% */
+  transition: transform 0.3s ease-in-out; /* Smooth transition */
+}
+
+
+.slide-with-spacing .slider-image {
+  margin: 0 80px; /* Adjust the spacing as needed */
+}

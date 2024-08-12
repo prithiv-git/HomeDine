@@ -1,0 +1,104 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Set your default font */
+  }
+  
+  .add-card-container {
+    padding: 20px;
+  }
+  
+  .add-card-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .back-arrow {
+    font-size: 24px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .header-text h2 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .header-text p {
+    color: #888;
+    font-size: 16px;
+  }
+  
+  .add-card-form {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .form-group.expiry-cvv {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .form-group.expiry-cvv div {
+    flex: 1;
+  }
+  
+  .form-group.expiry-cvv div:first-child {
+    margin-right: 10px;
+  }
+  
+  .secure-card-checkbox {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+  }
+  
+  .secure-card-checkbox input {
+    margin-right: 10px;
+  }
+  
+  .secure-card-checkbox a {
+    color: #ff6f00;
+    text-decoration: none;
+  }
+  
+  .secure-card-checkbox a:hover {
+    text-decoration: underline;
+  }
+  
+  .proceed-button {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .proceed-button:hover {
+    background-color: #11cf3d;
+  }
+  

@@ -1,0 +1,81 @@
+/* Centering the login form and adding background image */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative; /* Ensure the pseudo-element is positioned correctly */
+    overflow: hidden; /* Hide overflow if image goes out of bounds */
+  }
+  
+  .login-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover; /* Ensures the image covers the entire background */
+    opacity: 0.9; /* Adjust the opacity here */
+    z-index: -1; /* Place behind the content */
+  }
+  
+  .login-form {
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+    width: 100%;
+    max-width: 400px; /* Maximum width for the form */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Updated shadow for a cleaner look */
+  }
+  
+  h3 {
+    text-align: center;
+    font-weight: bold;
+    color:#2b7a0b;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Softer text shadow */
+    margin-bottom: 20px; /* Space below the heading */
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-group label {
+    margin-top: 10px;
+  }
+  
+  .input-group input {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ccc; /* Border for inputs */
+    border-radius: 5px; /* Rounded corners for inputs */
+  }
+  
+  .btn {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .btn-primary {
+    background-color: #28a745;
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+    width: 100%; /* Full width for button */
+  }
+  
+  .signup-link {
+    margin-top: 20px;
+    text-align: center;}

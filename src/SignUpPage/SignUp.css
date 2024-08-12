@@ -1,0 +1,94 @@
+/* Full page layout with center alignment */
+.signup-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 100vh;
+    padding: 0 10%;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* Background image for signup page */
+  .signup-page::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    opacity: 0.9;
+    z-index: -1;
+  }
+  
+  /* Container for the image */
+  .signup-image {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Styling the signup image */
+  .signup-image img {
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling the signup form container */
+  .addUser {
+    flex: 1;
+    background-color: white;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 1;
+  }
+  
+  /* Form layout and styling */
+  .addUserForm .inputGroup {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .addUserForm .inputGroup label {
+    margin-top: 10px;
+  }
+  
+  .addUserForm .inputGroup input {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .inputGroup button {
+    margin-top: 10px;
+  }
+  
+  .login {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .login .btn.btn-primary {
+    width: 100%;
+  }
+  
+  .addUser h3 {
+    text-align: center;
+    font-weight: bold;
+    color: #2b7a0b;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+  }
+  

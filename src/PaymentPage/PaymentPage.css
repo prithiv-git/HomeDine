@@ -1,0 +1,154 @@
+/* .payment-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .payment-section {
+    margin-bottom: 20px;
+  }
+  
+  .payment-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .payment-title img {
+    margin-right: 10px;
+  }
+  
+  .payment-option {
+    padding: 15px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+  }
+  
+  .add-new-btn, .payment-option-btn {
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .payment-description {
+    font-size: 14px;
+    color: #888;
+    margin-top: 5px;
+  }
+  
+  .payment-option-list .payment-option {
+    margin-bottom: 15px;
+  }
+  
+  .payment-option-btn {
+    position: relative;
+    background-color: #f7f7f7;
+  }
+  
+  .payment-option-btn::after {
+    content: '>';
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #888;
+  }
+  .payment-title img {
+    width: 50px; 
+    height: auto;
+    margin-right: 10px;
+} */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Proxima+Nova:wght@400;600&display=swap');
+
+.payment-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    font-family: 'Proxima Nova', sans-serif;
+}
+
+.payment-section {
+    margin-bottom: 20px;
+    font-family: 'Proxima Nova', sans-serif;
+}
+
+.payment-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.5px;
+}
+
+.payment-option {
+    padding: 15px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+}
+
+.add-new-btn, .payment-option-btn {
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 600;
+}
+
+.payment-description {
+    font-size: 14px;
+    color: #888;
+    margin-top: 5px;
+    font-family: 'Proxima Nova', sans-serif;
+}
+
+.payment-option-list .payment-option {
+    margin-bottom: 15px;
+}
+
+.payment-option-btn {
+    position: relative;
+    background-color: #f7f7f7;
+}
+
+.payment-option-btn::after {
+    content: '>';
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #888;
+}
+
+.payment-title img {
+    width: 50px; /* Adjust width as needed */
+    height: auto;
+    margin-right: 10px;
+}

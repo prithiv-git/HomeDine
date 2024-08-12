@@ -1,0 +1,149 @@
+/* .food-menu-container {
+    padding: 10px;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; 
+  }
+  
+  .search-bar {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .food-menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  
+  .menu-item {
+    text-align: center;
+    width: 200px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: #fff;
+    transition: transform 0.2s;
+  }
+  
+  .menu-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .menu-image {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .menu-text {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+  }*/
+
+/* 
+  .food-menu-container {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .food-menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+  }
+  
+  .menu-item {
+    text-align: center;
+    width: 100%;
+    max-width: 200px; 
+    flex-basis: calc(33.33% - 20px); 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: #fff;
+    transition: transform 0.2s;
+  }
+  
+  .menu-image {
+    width: 100%;
+    border-radius: 8px;
+  }
+   */
+
+
+
+/* 
+   .food-menu-container {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    max-width: 1200px; /* Restrict the maximum width */
+    margin: 0 auto; /* Center the entire container */
+  }
+  
+  .food-menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    width: 100%; /* Ensure it takes the full width */
+  }
+  
+  .menu-item {
+    text-align: center;
+    width: calc(100% - 40px); /* Full width minus gap for small screens */
+    max-width: 200px; /* Ensure a maximum width */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: #fff;
+    transition: transform 0.2s;
+  }
+  
+  .menu-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .menu-image {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .menu-text {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  @media (min-width: 600px) {
+    .menu-item {
+      width: calc(50% - 40px); /* Two items per row */
+    }
+  }
+  
+  @media (min-width: 900px) {
+    .menu-item {
+      width: calc(33.33% - 40px); /* Three items per row */
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .menu-item {
+      width: calc(25% - 40px); /* Four items per row */
+    }
+  }
+   */

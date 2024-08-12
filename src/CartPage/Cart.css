@@ -1,0 +1,97 @@
+.cart-container {
+    padding: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .cart-items {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+  }
+  
+  .cart-item-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .cart-item-details {
+    flex-grow: 1;
+  }
+  
+  .cart-total {
+    text-align: right;
+    font-weight: bold;
+    margin-top:20px;
+  }
+.proceed-to-pay button {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #2b7a0b;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none; /* Remove underline */
+    }
+    
+    .proceed-to-pay button a {
+      text-decoration: none; /* Remove underline from any anchor tag inside the button */
+      color: inherit; /* Ensure the color remains the same as the button text color */
+    }
+    
+    .proceed-to-pay button:hover {
+      background-color: #013220;
+    }
+
+
+    .quantity-controls {
+      display: flex;
+      align-items: center;
+      border: 1px solid #ccc;
+      border-radius: 12px;
+      overflow: hidden;
+      width: 100px; /* Adjust the width as per your requirement */
+      justify-content: space-between;
+      background-color: #fff;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .quantity-controls button {
+      background-color: transparent;
+      border: none;
+      color: #009688; /* Customize the color */
+      font-size: 16px;
+      width: 25px;
+      height: 25px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    
+    .quantity-controls button:hover {
+      background-color: #f0f0f0;
+    }
+    
+    .quantity-controls span {
+      font-size: 16px;
+      color: #009688; /* Customize the color */
+      width: 30px;
+      text-align: center;
+    }
+    
+    

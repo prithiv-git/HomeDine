@@ -1,0 +1,181 @@
+.home-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+    background-color: #fff;
+  }
+  
+  .content {
+    padding-left: 10%;
+
+    flex: 1;
+    padding-right: 2rem;
+    text-align: left;
+  }
+  
+  .content h1 {
+    color: #28a745;
+    font-size: 2.5rem;
+    margin: 0;
+  }
+  
+  .content h2 {
+    color: #222;
+    font-size: 2rem;
+    margin: 0;
+
+  }
+  
+  .content p {
+    color: #333;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+  }
+  
+  .order-button {
+    background-color: #34a308;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-right: 1rem;
+  }
+  
+  .order-button a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .contact-info {
+    display: inline-block;
+    color: #216e1c;
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .image-container {
+    flex: 1;
+    text-align: center;
+    position: relative;
+    overflow: hidden; /* Added for zoom effect */
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+    transform: scale(1.1) rotate(-5deg); /* Slightly crossed and zoomed in */
+  }
+  
+  .new-content {
+    margin-top: 40px;
+    padding: 3rem;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .new-image-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .cooking-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .new-text-container {
+    margin-bottom: 20px;
+  }
+  
+  .new-text-container h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .new-text-container p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .pagination {
+    margin-bottom: 20px;
+  }
+  
+  .page-number {
+    font-size: 0.9rem;
+    color: #888;
+  }
+  
+  .next-button {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .play-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .play-button:hover {
+    background-color: #45a049;
+  }
+  
+  .join-button {
+    align-items: center;
+  }
+  
+  .order-food-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .join-button a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Floating image styles */
+  .floating-image-container {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+  }
+  
+  .floating-image {
+    padding-left: 30%;
+    width: 250px; /* Adjust size as needed */
+    height: auto;
+    animation: float 3s ease-in-out infinite;
+  }
+  
+  @keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  
+  
